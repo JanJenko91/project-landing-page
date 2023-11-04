@@ -4,6 +4,7 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     color: white;
+
 }
 
 .hero {
@@ -11,17 +12,55 @@ body {
     flex-direction: column;
     align-content: space-between;
     background-color: #1F2937;
-    padding: 0;
-    margin: 0;
     font-weight: 500;
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 120px;
+}
+
+.hero-signup-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.hero-title {
+    width: 400px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.hero-title h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    padding: 0;
+    margin: 0; 
+}
+
+.hero-title p {
+    color: #E5E7EB;
+    font-size: 18px;
+    width: 450px;
+}
+
+.hero-image {
 }
 
 .top-bar-box {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 ul {
+    color: #E5E7EB;
+    font-size: 18px;
     list-style: none;
     display: flex;
     gap: 20px;
@@ -29,6 +68,38 @@ ul {
     padding: 0;
 }
 
-li {
-    
+.button-header {
+    background-color: #3882F6;
+    padding: 8px 35px 8px 35px;
+    color: #E5E7EB;
+    border-radius: 6px;
+    border: none;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+div {
+    outline: 1px solid red;
+}
+
+.info-cards {
+    background-color: #FFFFFF;
+    color: #626A76;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.info-cards h1 {
+    color: #1F2937;
+    text-align: center;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.info-box {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
 }
