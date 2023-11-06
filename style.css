@@ -78,17 +78,15 @@ ul {
     font-weight: bolder;
 }
 
-div {
-    outline: 1px solid red;
-}
 
 .info-cards {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     color: #626A76;
     font-size: 18px;
     display: flex;
     flex-direction: column;
-
+    padding-top: 30px;
+    padding-bottom: 170px;
 }
 
 .info-cards h1 {
@@ -98,8 +96,108 @@ div {
     font-size: 36px;
 }
 
-.info-box {
-    border: 1px solid blue;
+
+.picture-card {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+
+}
+
+.pepe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+}
+
+.pepe img {
+    border: 3px solid blue;
+    border-radius: 9px;
+}
+
+.inspiration-quote-background {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+.inspiration-paragraph-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 800px;
+    border: 3px solid #E5E7EB; 
+}
+
+.inspiration-paragraph-container p {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.thor {
+    align-self: flex-end;
+    font-weight: 900;
+    margin-top: -75px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.thor h5 {
+    color: #1F2937;
+    font-size: larger;
+}
+
+.action-background {
+    display: flex;
+    margin: 80px 10% 80px 10%;
+}
+
+.call-to-action-box {
+    flex: 1;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    border-radius: 9px;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.action-left {
+    padding-left: 50px;
+}
+
+.action-right {
+    padding-right: 50px;
+}
+
+.action-left p {
+    margin-top: -15px;
+}
+
+.action-right button {
+    background-color: #3882F6;
+    padding: 8px 35px 8px 35px;
+    color: #E5E7EB;
+    border: 3px solid white;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+}
+
+.footer p {
+    margin: 40px;
+    font-size: 18px;
 }
